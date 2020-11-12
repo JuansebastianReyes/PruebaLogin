@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/dist/css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container center">
+    <div class="jumbotron">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6">
+                <div class="center">
+                  <h3 class="titulo">Iniciar Sesión</h3>
+                </div>
+                <div class="borderedContainer">
+                  <input class="form-control marbo15" id="user" type="text" placeholder="Ingrese su Usuario">
+                  <input class="form-control marbo15" id="password" name="password" placeholder="Ingrese su contraseña">
+                </div>
+                <div class="center marto15">
+                  <a id="login"class="btn btn-primary marbo15" onclick="login()" >Iniciar Sesión</a>
+                </div>
+                <div class="center marto15">
+                  <p id="err" class="text-white"></p> 
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/dist/js/jquery-2.1.4.min.js"></script>
+    <script src="./assets/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/dist/js/ajax-utils.js"></script>
+    <script src="./assets/dist/js/main.js"></script>
+</body>
+</html>

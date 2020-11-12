@@ -1,0 +1,65 @@
+.container{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titulo{
+  font-size: 40px;
+  color: #ffffffff;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.form-control{
+   border-color: #1b1b1b;
+}
+.container .jumbotron{
+  background-color: #067683;
+}
+
+.btn{
+  background-color: #1b1b1b;
+  border: #1b1b1b;
+}
+
+#err{
+    font-size: 20px;
+}
+
+body{
+  background-color: #067683;
+}
+.center{
+    text-align: center !important;
+}
+
+.marbo15{
+    margin-top: 15px;
+}
+
+.marto15{
+    margin-bottom: 15px;
+}
+
+.generalContent{
+    margin-top: 56px;
+}
+
+.dislo{
+    display: block !important;
+}
+
+.marbo5{
+    margin-bottom: 5px;
+}
+
+.pato45{
+    padding-top: 45px;
+}
+
+input[type="file"]{
+    display: none;
+}
